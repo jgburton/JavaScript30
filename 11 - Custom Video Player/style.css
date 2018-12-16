@@ -35,7 +35,6 @@ body {
 
 .player:-webkit-full-screen {
   max-width: none;
-  width: 100%;
 }
 
 .player__video {
@@ -43,6 +42,18 @@ body {
 }
 
 .player__button {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  max-width: 50px;
+}
+
+.fullscreen__button {
   background: none;
   border: 0;
   line-height: 1;
@@ -72,6 +83,7 @@ body {
   transition: all .3s;
   flex-wrap: wrap;
   background: rgba(0,0,0,0.1);
+
 }
 
 .player:hover .player__controls {
