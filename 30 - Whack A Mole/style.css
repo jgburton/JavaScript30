@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #ffc600;
+  /* background: #faebd7; */
+  background: #eedfcc;
 }
 
 *, *:before, *:after {
@@ -56,6 +57,7 @@ h1 {
 
 .mole {
   background: url('mole.svg') bottom center no-repeat;
+  /* background: url('https://www.fillmurray.com/200/300') bottom center no-repeat; */
   background-size: 60%;
   position: absolute;
   top: 100%;
@@ -66,4 +68,9 @@ h1 {
 
 .hole.up .mole {
   top: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
